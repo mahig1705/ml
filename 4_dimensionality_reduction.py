@@ -10,10 +10,12 @@
 import numpy as np
 import pandas as pd
 from random import randint
+
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA, TruncatedSVD
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from sklearn.datasets import load_iris
+
 import matplotlib.pyplot as plt
 
 # ---------------------------------------------------------
